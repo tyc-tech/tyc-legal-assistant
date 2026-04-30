@@ -146,14 +146,14 @@ Claude: 核验结果（真 / 假 / 部分一致）+ 异常字段列表
 
 ## 6. 天眼查 MCP 集成
 
-所有 SKILL 通过单一 `tyc` MCP server 调用业务语义聚合层 167 个工具。
+所有 SKILL 通过单一 `tyc` MCP server 调用业务语义聚合层 163 个工具。
 
 主要使用的工具分类：
 
 | Go 包 | 工具数 | 本仓使用场景 |
 |-------|--------|--------------|
-| `company` | 52 | 主体核验（contract-party / license-validation）|
-| `risk` | 36 | 法律风险扫描（legal-risk / debt-recovery）|
+| `company` | 49 | 主体核验（contract-party / license-validation）|
+| `risk` | 35 | 法律风险扫描（legal-risk / debt-recovery）|
 | `intellectual_property` | 14 | IP 资产盘点（ip-asset / ip-infringement）|
 | `operation` | 32 | 行政许可 / 资质（ad-compliance / license-validation）|
 | `executive` | 15 | 劳动 / HR 背调（labor-compliance）|
